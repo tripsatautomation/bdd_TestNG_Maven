@@ -1,0 +1,3 @@
+getgroupID=Select ID from [FGAPPLatest].[dbo].[Groups] WHERE Name ='{{value}}' and ApiKey IS NOT NULL
+getUserData=SELECT * FROM [FGAPPLatest].[dbo].[User] WHERE GroupID='{{value}}'
+getUserName=select Username from [FGAPPLatest].[dbo].[User] WHERE GroupID='{{value}}' 

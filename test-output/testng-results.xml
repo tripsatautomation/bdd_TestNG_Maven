@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-06T19:34:54 IST" name="Default suite" finished-at="2023-07-06T19:34:57 IST" duration-ms="2494">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T19:34:54 IST" name="Default test" finished-at="2023-07-06T19:34:57 IST" duration-ms="2494">
+      <class name="com.awfi.tests.GroupCopyTestScenarios">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.awfi.tests.GroupCopyTestScenarios@1b11171f]" started-at="2023-07-06T19:34:39 IST" name="setUp" finished-at="2023-07-06T19:34:54 IST" duration-ms="15049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="prerequisites()[pri:0, instance:com.awfi.tests.GroupCopyTestScenarios@1b11171f]" started-at="2023-07-06T19:34:54 IST" name="prerequisites" finished-at="2023-07-06T19:34:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisites -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.awfi.tests.GroupCopyTestScenarios@1b11171f]" started-at="2023-07-06T19:34:54 IST" name="beforeMethod" finished-at="2023-07-06T19:34:54 IST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.awfi.tests.GroupCopyTestScenarios.copyAlpineAndCheckData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="copyAlpineAndCheckData()[pri:0, instance:com.awfi.tests.GroupCopyTestScenarios@1b11171f]" started-at="2023-07-06T19:34:54 IST" name="copyAlpineAndCheckData" finished-at="2023-07-06T19:34:57 IST" duration-ms="2408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyAlpineAndCheckData -->
+        <test-method is-config="true" signature="s(org.testng.ITestResult)[pri:0, instance:com.awfi.tests.GroupCopyTestScenarios@1b11171f]" started-at="2023-07-06T19:34:57 IST" name="s" finished-at="2023-07-06T19:34:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=copyAlpineAndCheckData status=SUCCESS method=GroupCopyTestScenarios.copyAlpineAndCheckData()[pri:0, instance:com.awfi.tests.GroupCopyTestScenarios@1b11171f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- s -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.awfi.tests.GroupCopyTestScenarios@1b11171f]" started-at="2023-07-06T19:34:57 IST" name="tearDown" finished-at="2023-07-06T19:34:58 IST" duration-ms="1159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.awfi.tests.GroupCopyTestScenarios -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Case(failed)">
+    <classes>
+      <class name="com.awfi.tests.GroupsTestScenarios">
+        <methods>
+          <include name="setUp"/>
+          <include name="createAndEditGroup"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="prerequisites"/>
+          <include name="s"/>
+        </methods>
+      </class> <!-- com.awfi.tests.GroupsTestScenarios -->
+    </classes>
+  </test> <!-- Test Case(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
